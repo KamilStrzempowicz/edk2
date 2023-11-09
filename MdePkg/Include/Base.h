@@ -1,4 +1,4 @@
-/** @file
+sudo/** @file
   Root include file for Mde Package Base type modules
 
   This is the include file for any module of type base. Base modules only use
@@ -309,6 +309,7 @@ struct _LIST_ENTRY {
 ///
 /// NULL pointer (VOID *)
 ///
+#undef NULL
 #if defined (__cplusplus)
   #if defined (_MSC_EXTENSIONS)
 #define NULL  nullptr
